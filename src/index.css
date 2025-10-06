@@ -1,0 +1,61 @@
+/* Define your custom theme variables */
+:root {
+  --color-primary: #dcd7c9;
+  --color-secondary: #c46b47;
+  --color-danger: #EF4444;
+  --color-accent: #10B981;
+}
+
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* Optional: Define utility classes using your CSS variables */
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.bg-danger {
+  background-color: var(--color-danger);
+}
+
+.text-danger {
+  color: var(--color-danger);
+}
+
+.bg-accent {
+  background-color: var(--color-accent);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
