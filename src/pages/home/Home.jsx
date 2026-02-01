@@ -8,6 +8,7 @@ import WeddingGallery from './WeddingGallery'
 import InteriorDesignStats from './InteriorDesignStats'
 import ContactForm from '../../components/ContactForm'
 import GallerySlider from './GallerySlider'
+// okiii
 
 const Home = () => {
   return (
